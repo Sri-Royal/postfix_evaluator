@@ -7,7 +7,7 @@ This project is especially useful for **Data Structures and Algorithms (DSA)** l
 
 ---
 
-## 📌 Features
+## Features
 
 - ✅ Supports **space-separated postfix expressions**
 - ✅ Handles **multi-digit operands**
@@ -20,7 +20,7 @@ This project is especially useful for **Data Structures and Algorithms (DSA)** l
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 - The user enters a **postfix expression** where each operand or operator is separated by a space.
 - Each click on the **Next** button performs **one step** of the postfix evaluation algorithm:
@@ -31,5 +31,4 @@ This project is especially useful for **Data Structures and Algorithms (DSA)** l
 
 ---
 
-## ✏️ Example Input
 
