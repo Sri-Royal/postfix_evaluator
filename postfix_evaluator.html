@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Expression Evaluation – Stack Visualization</title>
+    <link rel="stylesheet" href="postfix_evaluator.css">
+</head>
+<body>
+
+<header>
+    Postfix Expression Evaluation<br>
+    <span>Stack-Based Step-by-Step Visualization</span>
+</header>
+
+<div class="container">
+
+    <div class="controls">
+        <input type="text" id="exp" placeholder="Example: 926*+">
+        <button onclick="start()">Start</button>
+    </div>
+
+    <div id="info">Enter a Postfix expression and click Start</div>
+
+    <div class="action-buttons">
+        <button onclick="prevStep()">Previous Step</button>
+        <button onclick="nextStep()">Next Step</button>
+    </div>
+
+    <!-- VISUALIZATION AREA (Initially Hidden) -->
+    <div id="visualSection" class="hidden">
+        <div class="visual">
+
+            <div class="card">
+                <h3>Operand Stack (Tree View)</h3>
+                <div class="stack-tree" id="stack"></div>
+            </div>
+
+            <div class="card">
+                <h3>Current Symbol</h3>
+                <div class="current" id="current"></div>
+            </div>
+
+            <div class="card">
+                <h3>Evaluation Result</h3>
+                <div class="output" id="postfix"></div>
+            </div>
+
+        </div>
+    </div>
+<script src="postfix_evaluator(1).js"></script>
+</body>
+</html>
